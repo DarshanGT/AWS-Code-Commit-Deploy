@@ -10,11 +10,11 @@ app.get('/products', (req, res) => {
   res.send([
     {
       productId: '101',
-      price: 35000
+      price: 7000
     },
     {
       productId: '102',
-      price: 6000
+      price: 1000
     }
   ])
 })
